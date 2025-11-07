@@ -1,6 +1,7 @@
+
 +<?php 
 include 'assets/includes/header.php';
-include 'sfac-bac/includes/conn.php';
+
 
 ?>
 <title>Home | Saint Francis of Assisi College Bacoor</title>
@@ -67,11 +68,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
     .news {
       padding: 0 2%;
-      border: 1px solid #d2d2d2;
+      border: 1px solid #060505ff;
     }
     .title  {
       text-align: center;
-      background: #c81c1c;
+      background: #88222279;
       position: relative;
       display: block;
     }
@@ -87,15 +88,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     .news-content p {
       margin-right: 41px;
       display: inline;
-      color: #37423b;
+      color: #44574bff;
       animation: marquee 32s linear infinite;
     }
     .news-content a {
-      color: #c81c1c;
+      color: #37423b;
     }
 
     .news-content a:hover {
-      color: #ffcc00;
+      color: #4a1305c6;
     }
 
     .news:hover {
@@ -303,3 +304,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <?php
                   include ('assets/includes/footer.php');
                   ?>
+
