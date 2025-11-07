@@ -11,16 +11,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #8a1c1c;
 }
 
 a {
-  color: #FF3302;
+  color: #631a07;
   text-decoration: none;
 }
 
 a:hover {
-  color: #86db9f;
+  color: #2d914b;
   text-decoration: none;
 }
 
