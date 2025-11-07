@@ -38,7 +38,7 @@ include 'sfac-bac/includes/conn.php';
   h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    color: #c81c1c;
+    color: #c81c1c; /* main red */
   }
 
   a {
@@ -46,9 +46,8 @@ include 'sfac-bac/includes/conn.php';
     text-decoration: none;
     transition: 0.3s;
   }
-
   a:hover {
-    color: #ffcc00;
+    color: #ffcc00; /* yellow hover */
   }
 
   /* ======= Hero Section ======= */
@@ -195,13 +194,8 @@ include 'sfac-bac/includes/conn.php';
   footer a:hover {
     color: #fff;
   }
-
-  /* ======= YouTube Video ======= */
-  .yt-vid {
-    width: 100%;
-    height: 590px;
-  }
 </style>
+
 
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -378,4 +372,5 @@ include 'sfac-bac/includes/conn.php';
   </main>
 
   <?php include ('assets/includes/footer.php'); ?>
+
 
